@@ -18,7 +18,7 @@ for i in range (1,40):
     driver.find_element(By.XPATH,"//*[@id='ContentPlaceHolder1_btnShowResult']").click()
     student_name = driver.find_element(By.XPATH,"//*[@id='ContentPlaceHolder1_lblStudentName']")
     # error = driver.find_element(By.XPATH,"/html/body/form/table/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr[3]/td/table/tbody/tr[7]/td/span")
-    if student_name.text != "SANSKRITI GUPTA":
+    if student_name.text != "": #enter the name of the student where you want to stop the loop
         time.sleep(1)
         driver.back()
         continue
