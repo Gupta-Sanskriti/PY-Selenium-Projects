@@ -1,0 +1,17 @@
+{
+  "people": [
+    {
+      "name": "john smith",
+      "emails": [
+        "johnsmith@gmai.com",
+        "johnsmith123@yahoo.com"
+      ],
+      "has_license": false
+    },
+    {
+      "name": "mithila cape",
+      "emails": null,
+      "has_license": true
+    }
+  ]
+}
