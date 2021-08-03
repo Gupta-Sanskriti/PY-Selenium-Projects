@@ -7,7 +7,7 @@ driver = webdriver.Chrome(path)
 driver.get("http://result.npgc.in/Default.aspx?ExaminationSession=JUNE-2020")
 
 rollno_feild = driver.find_element_by_name("ctl00$ContentPlaceHolder1$txtRollNo")
-# rollno_feild.send_keys("218566")
+# rollno_feild.send_keys("")    #enter rollNo. to enter into input feild
 # driver.find_element_by_name("ctl00$ContentPlaceHolder1$btnShowResult").click()
 # looping up the roll no
 # for i in range(217557,218586,1):
@@ -17,7 +17,7 @@ rollno_feild = driver.find_element_by_name("ctl00$ContentPlaceHolder1$txtRollNo"
 #     time.sleep(5)
 #     name = driver.find_element_by_id("ContentPlaceHolder1_lblStudentName").text
 #     # print(name.is_enabled())
-#     if name == "SANSKRITI GUPTA":
+#     if name == "":    # enter the name of the person where you want to stop the loop
 #         break
 #     else:
 #         driver.back()
